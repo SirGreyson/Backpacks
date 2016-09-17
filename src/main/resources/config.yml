@@ -1,0 +1,68 @@
+### Backpack Plugin Configuration ###
+
+## Heading to use for the Backpack Sign ##
+SIGN_HEADER: '&3[&bBackpack&3]'
+
+## Plugin Message Configuration ##
+messages:
+  # Prefix for all messages sent by this plugin #
+  PREFIX: '&7[&bBackpacks&7]'
+
+  # Message sent when a Player purchases a Backpack #
+  # Use %s for the Display name of the Backpack #
+  # Use %d for the Token cost of the Backpack #
+  BACKPACK_PURCHASED: '&aYou have successfully purchased a %s &afor &6%d Tokens'
+  # Message sent when a Player tries to puchase a Backpack with not enough Tokens #
+  # Use %s for the Display name of the Backpack #
+  BACKPACK_NO_TOKENS: '&cYou do not have enough Tokens to purchase this %s'
+  # Message to send when a Player tries to purchase a Backpack with a full inventory #
+  BACKPACK_FULL_INVENTORY: '&cYour inventory is full! Try again with less items'
+
+  # Message sent when a Player tries to purchase another Backpack within the cooldown period #
+  BACKPACK_COOLDOWN: '&cPlease wait before doing that again!'
+
+  # Message sent when a Player successfully drops a Backpack #
+  # Use %s for the display name of the Backpack #
+  BACKPACK_DROPPED: '&eYou have dropped your %s'
+  # Message sent when a Player first tries to drop a Backpack #
+  DROP_CONFIRM: '&c&lWAIT! &eAre you sure you want to drop this Item? If so type &6/backpack drop'
+
+  # Message sent when a Player uses /sellall or an AutoSell sign with a sell enabled Backpack #
+  # Use %d for the number of item successfully sold #
+  # Use %s for the display name of the Backpack #
+  BACKPACK_SOLD: '&aYou have successfully sold &6%d items &afrom %s'
+
+## Backpack Configuration ##
+backpacks:
+  small:
+    DISPLAY_NAME: '&eSmall Backpack'
+    SIZE: 9
+    COST_TOKENS: 25
+  medium:
+    DISPLAY_NAME: '&6Medium Backpack'
+    SIZE: 18
+    COST_TOKENS: 50
+  large:
+    DISPLAY_NAME: '&cLarge Backpack'
+    SIZE: 27
+    COST_TOKENS: 100
+  mega:
+    DISPLAY_NAME: '&4Mega Backpack'
+    SIZE: 36
+    COST_TOKENS: 200
+  huge:
+    DISPLAY_NAME: '&dHuge Backpack'
+    SIZE: 45
+    COST_TOKENS: 300
+  massive:
+    DISPLAY_NAME: '&5Massive Backpack'
+    SIZE: 54
+    COST_TOKENS: 400
+  crazy:
+    DISPLAY_NAME: '&bCrazy Backpack'
+    SIZE: 63
+    COST_TOKENS: 500
+  insane:
+    DISPLAY_NAME: '&3INSANE Backpack'
+    SIZE: 72
+    COST_TOKENS: 600

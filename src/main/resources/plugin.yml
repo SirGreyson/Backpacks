@@ -1,0 +1,11 @@
+main: co.reasondev.prison.PrisonBackpacks
+name: ${project.artifactId}
+version: ${project.version}
+
+description: Backpack-Item Plugin for Spigot
+author: SirReason
+depends: [AutoSell, PrisonTokens]
+
+commands:
+  backpack:
+    description: Main Backpack Command
